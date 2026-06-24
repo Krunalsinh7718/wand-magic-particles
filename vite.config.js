@@ -9,5 +9,8 @@ export default {
         alias: {
             'three/addons': 'three/examples/jsm'
         }
-    }
+    },
+    build: {
+    chunkSizeWarningLimit: 1500
+  }
 }
